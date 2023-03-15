@@ -3,7 +3,7 @@ import * as pjson from '../package.json';
 
 @Injectable()
 export class AppService {
-  getVersion(): { version: string } {
+  getVersion(): any {
     return { version: pjson.version };
   }
 }
